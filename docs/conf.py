@@ -51,7 +51,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Computational Methods in the Civic Sphere 2017'
-copyright = '2016, Dan Nguyen'
+copyright = '2017, Dan Nguyen'
 author = 'Dan Nguyen'
 
 # The version info for the project you're documenting, acts as replacement for

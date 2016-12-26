@@ -1,0 +1,44 @@
+/* @import url(http://fonts.googleapis.com/css?family=Lato);*/
+
+{% set page_width = '940px' %}
+{% set sidebar_width = '220px' %}
+{% set font_family = 'Gill Sans, Georgia, serif' %}
+{% set header_font_family = 'Helvetica Neue, Helvetica, Arial, ' ~ font_family %}
+
+@import url("basic.css");
+
+/* -- page layout ----------------------------------------------------------- */
+
+
+body {
+    font-family: {{ font_family }};
+    font-size: 17px;
+    background-color: white;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+div.document {
+    width: {{ page_width }};
+    margin: 30px auto 0 auto;
+}
+
+div.documentwrapper {
+    float: left;
+    width: 100%;
+}
+
+div.bodywrapper {
+    margin: 0 0 0 {{ sidebar_width }};
+}
+
+div.sphinxsidebar {
+    width: {{ sidebar_width }};
+}
+
+div.sphinxsidebar {
+    font-size: 15px;
+    line-height: 1.5;
+}
+

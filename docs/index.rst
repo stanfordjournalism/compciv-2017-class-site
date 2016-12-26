@@ -10,9 +10,8 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-   :glob:
 
-   schedule/*
+   schedule/index
 
 
 Indices and tables
