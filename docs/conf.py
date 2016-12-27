@@ -97,7 +97,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'colorful'
 
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
@@ -123,7 +123,9 @@ html_theme = 'compciv'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+    'display_version': False,
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ["_theme", sphinx_rtd_theme.get_html_theme_path()]
@@ -180,7 +182,7 @@ html_static_path = ['_static']
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 #html_show_sphinx = True
@@ -264,7 +266,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'computationalmethodsinthecivicsphere2017', 'Computational Methods in the Civic Sphere 2017 Documentation',
+    (master_doc, 'computationalmethodsinthecivicsphere2017', 'Computational Methods in the Civic Sphere 2017',
      [author], 1)
 ]
 
@@ -278,7 +280,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ComputationalMethodsintheCivicSphere2017', 'Computational Methods in the Civic Sphere 2017 Documentation',
+    (master_doc, 'ComputationalMethodsintheCivicSphere2017', 'Computational Methods in the Civic Sphere 2017',
      author, 'ComputationalMethodsintheCivicSphere2017', 'One line description of project.',
      'Miscellaneous'),
 ]

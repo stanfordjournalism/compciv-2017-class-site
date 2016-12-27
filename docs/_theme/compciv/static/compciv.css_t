@@ -1,4 +1,14 @@
 @import url(css/theme.css);
+@import url(typography.css);
+
+
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend{
+  font-family: "Lato","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+}
+
+p{
+    font-family: "Lora", "Georgia", Lato, serif;
+}
 
 /*
 .wy-nav-content{

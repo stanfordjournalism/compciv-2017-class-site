@@ -1,0 +1,6 @@
+********
+Syllabus
+********
+
+
+.. include:: introduction.rst
